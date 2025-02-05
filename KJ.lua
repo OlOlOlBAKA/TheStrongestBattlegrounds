@@ -1,3 +1,5 @@
+-- AOK YET RIN
+
 local function GetGitSound(GithubSnd,SoundName)
 	local url=GithubSnd
 	if not isfile(SoundName..".mp3") then
@@ -12,6 +14,7 @@ local plr = game.Players.LocalPlayer
 
 local function OnCharacterAdded(char)
 print("Script Is Running.")
+print("AOK YET RIN")
 local humanoid = char:WaitForChild("Humanoid")
 if humanoid then
 humanoid.AnimationPlayed:Connect(function(animationTrack)

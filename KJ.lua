@@ -1,4 +1,4 @@
--- AOK YET RIN
+-- AOK 
 
 local function GetGitSound(GithubSnd,SoundName)
 	local url=GithubSnd
@@ -14,7 +14,7 @@ local plr = game.Players.LocalPlayer
 
 local function OnCharacterAdded(char)
 print("Script Is Running.")
-print("AOK YET RIN")
+print("KUY AOK")
 local humanoid = char:WaitForChild("Humanoid")
 if humanoid then
 humanoid.AnimationPlayed:Connect(function(animationTrack)
